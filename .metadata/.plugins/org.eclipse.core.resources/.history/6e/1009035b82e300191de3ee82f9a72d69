@@ -1,0 +1,14 @@
+
+public class TestaSomatoria {
+
+	public static void main(String[] args) {
+		int contator = 0;
+		while(contator <= 10) {
+			int total = 0;
+			total = total + contator;
+			
+			System.out.println(total);
+			contator++;
+		}
+	}
+}

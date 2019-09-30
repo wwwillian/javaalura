@@ -1,0 +1,23 @@
+
+public class TestaEscopo {
+	public static void main(String[] args) {
+		int quantidadePessoas = 3;
+		boolean acompanhado;
+		
+		if(quantidadePessoas >= 2) {
+			acompanhado = true;
+		} else {
+			acompanhado = false;
+		}
+		
+		System.out.println("Valor de acompanhado = " + acompanhado);
+		
+		if(quantidadePessoas >= 2) {
+			boolean acompanhado1 = true;
+		} else {
+			boolean acompanhado1 = false;
+		}
+		
+		// System.out.println("Valor de acompanhado1 = " + acompanhado1);
+	}
+}

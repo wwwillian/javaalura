@@ -1,0 +1,20 @@
+
+public class TestaEscopo {
+	public static void main(String[] args) {
+		int quantidadePessoas = 3;
+		boolean acompanhado;
+		
+		if(quantidadePessoas >= 2) {
+			acompanhado = true;
+		} else {
+			acompanhado = false;
+		}
+		
+		if(quantidadePessoas >= 2) {
+			boolean acompanhado1 = true;
+		} else {
+			boolean acompanhado1 = false;
+		}
+		
+	}
+}
